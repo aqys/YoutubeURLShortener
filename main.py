@@ -1,7 +1,7 @@
 import re
 
 def shorten_youtube_url(youtube_url):
-    # Mmatch  video ID in the YouTube URL
+    # Match video ID in the YouTube URL
     video_id_regex = re.compile(r'v=([a-zA-Z0-9_-]{11})')
     
     # Search for ID using regex
